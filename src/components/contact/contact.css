@@ -1,0 +1,46 @@
+#contact {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 70px;
+}
+
+.contact-title {
+  margin-left: 20px;
+  border-bottom: 2px solid #39ff14;
+  text-underline-offset: 10px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  gap: 30px;
+}
+
+.contact-info-title {
+  font-size: 20px;
+}
+
+.contact-bits {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.res-button {
+  width: 40vw;
+  height: 40vh;
+  font-family: "press start 2p";
+  font-size: 19px;
+  border-radius: 10px;
+  cursor: pointer;
+}

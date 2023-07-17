@@ -1,0 +1,57 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.banner {
+  height: 30vh;
+  width: 100%;
+  background-image: url("../../media/banner.png");
+  background-position: 50%;
+  background-position-x: left;
+}
+
+.about-main {
+  display: flex;
+}
+
+.prof-left {
+  display: flex;
+  justify-content: flex-start;
+  height: 70vh;
+  width: 70vh;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 440px;
+  left: 120px;
+  background-image: url("../../media/profpic.jpg");
+  background-position: 110% 500px;
+  background-size: 470px;
+}
+
+.prof-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-right: 70px;
+  font-size: 22px;
+  padding-top: 80px;
+}
+
+.about-title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 38px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+#about {
+  margin-top: 390px;
+}

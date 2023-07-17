@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 16vh;
+  width: 100vw;
+  background-color: #1c1c1e;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.nav-title {
+  font-family: "Press start 2p";
+  color: #39ff14;
+  font-size: 32px;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 70px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 24px;
+}
+
+.nav-list a:hover {
+  color: #39ff14;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}

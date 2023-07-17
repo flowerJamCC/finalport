@@ -1,0 +1,19 @@
+.slider-two {
+  position: absolute;
+  white-space: nowrap;
+  animation: slide-left 15s linear infinite;
+  font-style: italic;
+  font-size: 26px;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 5px;
+  margin-top: 275px;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
